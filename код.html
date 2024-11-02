@@ -1,0 +1,79 @@
+<HTML>
+	<HEAD>
+		<TITLE>Первая попытка</TITLE>
+	</HEAD>
+	<BODY bgcolor="black" background="bg\phon.jpg"><font size="7" face="arial" color="silver">
+		<P align="center"><B>Сильнейшие люди Щелково</B> </P>
+		<img src="photo\strongest.webp" align="left" height="800" width="800">
+		<img src="photo\stariy.jpg" align="right" width="530" height="800">
+		<a><img src="photo\vitalik.jfif" align="center" width="500" height="800">
+			<form align="center" action="https://ya.ru/search">
+				<input type="text" name="text">
+				<input type="submit" value="Поиск">
+			</form>
+			<form align="center">
+			<label for="loginField">Логин</label>
+			<input id="loginField" type="text" name="login">
+			<label for="passFeild">Пароль</label>
+			<input id="passField" type="password" name="password">
+			<input type="submit" value="войти">
+			</form>
+			<form align="center">
+			<label for="messageField">Сообщение</label>
+			<textarea name="message" id="messageField" cols="30" rows="5">Старый бог</textarea>
+			</form>
+			<form action="/action_page.php">
+				<input list="browsers">
+				<datalist id="browsers">
+					<option value="Internet Explorer"></option>
+					<option value="Firefox"></option>
+					<option value="Chrome"></option>
+					<option value="Opera"></option>
+					<option value="Safari"></option>
+				</datalist>
+			</form>
+			<hr>
+			<form action="/action_page.php" oninput="x.value=parsenInt(a.value)+parseInt(b.value)">
+			0
+			<input type="range" id="a" name="a" value="50">
+			100 +
+			<input type="number" id="b" name="b" value="50">
+			=
+			<output name="x" for="a b"></output>
+			<br></br>
+			<input type="submit">
+			</form>
+			<form>
+			<label>
+			Завтрак
+			<input type="checkbox" name="breakfast" checked>
+			</label>
+			<br>
+			<label>
+			Обед
+			<input type="checkbox" name="lunch" checked>
+			<br>
+			<label>
+			Ужин
+			<input type="checkbox" name="dinner" checked>
+			</label>
+			</form>
+			<label>
+				<input type="radio" name="color" value="red">
+				Красная
+				</label>
+				<br>
+			<label>
+				<input type="radio" name="color" value="blue">
+				Синяя
+				</label>
+				<br>
+			<label>
+				<input type="radio" name="color" value="green">
+				Зелёная
+				</label>
+				<br>
+			</form>
+			</body>
+			
+</HTML>
